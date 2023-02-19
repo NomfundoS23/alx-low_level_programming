@@ -3,7 +3,7 @@
 /**
  *  main - this is the function to printf
  *
- *  Return: 0 when  successful
+ *  Return: 0 when  successfull
  */
 
 int main(void)
