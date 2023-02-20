@@ -8,19 +8,12 @@
  */
 int main(void)
 {
-	int ch = 'a';
-	int CH = 'A';
+	char i;
 
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		ch++;
-	}
-	while (CH <= '2')
-	{
-		putchar(CH);
-		CH++;
-	}
+	for (i = 'a' ; <= 'z' ; i++)
+		putchar(i);
+	for (i = 'A' ; i <= 'Z' ; i++)
+		putchar(i);
 	putchar('\n');
 	return (0);
 }
